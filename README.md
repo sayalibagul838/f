@@ -3,6 +3,7 @@ to run the application-
 2. create Kubernetes deployment configuration file and service configuration file for the application
 3. run the following  commands-
  a. kubectl apply -f dashboard-adminuser.yaml ( to create admin user)
+ 
  b. kubectl apply -f cluster_role_binding.yaml 
  c. kubectl apply -f createDeployment.yaml
  d. kubectl apply -f firstservice-service.yaml
